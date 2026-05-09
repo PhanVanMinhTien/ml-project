@@ -105,8 +105,8 @@ StrokePrediction-ML/
 ├── modules/                      # (Optional) Custom Python helper scripts
 │
 └── README.md                     # Project documentation
-
+```
 ## 7. Link to report and Colab
 
-1. Google Colab Notebook:
-2. Link to report: 
+1. Google Colab Notebook: [Google Colab](https://colab.research.google.com/drive/1Hbt76cq9jZSi1GZKpvI7l1A8kiXIvlBE?usp=sharing)
+2. Link to report: [Report](https://github.com/PhanVanMinhTien/ml-project/blob/main/reports/report_btl_ML.pdf)
