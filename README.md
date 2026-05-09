@@ -67,8 +67,46 @@ Evaluating model performance using:
 
 ## 5. How to Run the Notebook
 
-### 5.1 Required Libraries
+This project is fully optimized to run on **Google Colab**. Following the assignment requirements, there is no need to manually download datasets or mount personal Google Drive accounts. 
 
-## 6. Folder structure
+**Execution Steps:**
+1. Open [Google Colab](https://colab.research.google.com/drive/1Hbt76cq9jZSi1GZKpvI7l1A8kiXIvlBE?usp=sharing).
+2. In the top menu, navigate to **Runtime** > **Run all**.
+3. The notebook will automatically fetch the stroke dataset from a public raw GitHub URL, install any missing dependencies, and execute the entire pipeline from EDA to Deep Learning evaluation without errors.
+
+### 5.1 Required Libraries
+The notebook utilizes standard Python libraries for data science and machine learning. Most are pre-installed on Google Colab.
+* `pandas` & `numpy`: Data manipulation and numerical operations.
+* `matplotlib`, `seaborn`, `missingno`: Data visualization and missing value matrix.
+* `scikit-learn`: Preprocessing (StandardScaler, SimpleImputer, OneHotEncoder), PCA feature extraction, and Traditional ML models (Logistic Regression, Random Forest, SVM).
+* `tensorflow` / `keras`: Building and training the Deep Learning (MLP) model.
+
+---
+
+## 6. Folder Structure
+
+The repository is organized exactly according to the course guidelines to ensure a clean and reproducible workspace:
+
+```text
+StrokePrediction-ML/
+│
+├── notebooks/
+│   └── ass1_stroke.ipynb     # Main Google Colab notebook containing the full pipeline
+│
+├── reports/
+│   └── assignment_report.pdf     # The final comprehensive LaTeX-generated report
+│
+├── features/
+│   ├── X_train_pca.npy           # Extracted PCA features (Train)
+│   ├── X_test_pca.npy            # Extracted PCA features (Test)
+│   ├── y_train.npy               # Target labels (Train)
+│   └── y_test.npy                # Target labels (Test)
+│
+├── modules/                      # (Optional) Custom Python helper scripts
+│
+└── README.md                     # Project documentation
 
 ## 7. Link to report and Colab
+
+1. Google Colab Notebook:
+2. Link to report: 
